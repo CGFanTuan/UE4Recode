@@ -1,6 +1,6 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "4.22",
+	"EngineAssociation": "4.23",
 	"Category": "",
 	"Description": "",
 	"Modules": [
@@ -16,10 +16,6 @@
 	"Plugins": [
 		{
 			"Name": "HoudiniEngine",
-			"Enabled": true
-		},
-		{
-			"Name": "VirtuealMirror",
 			"Enabled": true
 		}
 	]

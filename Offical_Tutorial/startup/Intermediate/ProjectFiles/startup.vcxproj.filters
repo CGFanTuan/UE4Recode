@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\startup.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{1EA1D2CD-726F-4DB8-89CE-66309940631F}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\startup.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\startupEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{38B6C0D3-5045-4B60-B01A-3FEFDFD62E3A}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\startup">
+      <UniqueIdentifier>{B3012FD2-BFFA-4EEE-A146-E1406716F4BD}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\startup\startup.Build.cs">
+      <Filter>Source\startup</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\startup\startup.cpp">
+      <Filter>Source\startup</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\startup\startup.h">
+      <Filter>Source\startup</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\startup\startupCharacter.cpp">
+      <Filter>Source\startup</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\startup\startupCharacter.h">
+      <Filter>Source\startup</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\startup\startupGameMode.cpp">
+      <Filter>Source\startup</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\startup\startupGameMode.h">
+      <Filter>Source\startup</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
